@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <form action="">
+      <div class="rowContainer">
+        <div class="inputContainer">
+          <label for="name">Name</label>
+          <input placeholder="Enter your name" type="text" name="name" />
+        </div>
+
+        <div class="inputContainer">
+          <label for="surname">Surname</label>
+          <input placeholder="Enter your surname" type="text" name="surname" />
+        </div>
+      </div>
+
+      <div class="inputContainer">
+        <label for="email">Email</label>
+        <input placeholder="Enter your email" type="email" name="email" />
+      </div>
+
+      <div class="inputContainer">
+        <label for="password">Password</label>
+        <input
+          placeholder="Enter your password"
+          type="password"
+          name="password"
+        />
+      </div>
+
+      <div class="inputContainer">
+        <label for="age">Age</label>
+        <input
+          min="18"
+          max="100"
+          placeholder="Enter your age"
+          type="number"
+          name="age"
+        />
+      </div>
+
+      <div class="inputContainer">
+        <label for="file">Add your file</label>
+        <input placeholder="" type="file" name="file" />
+      </div>
+
+      <p>Select gender:</p>
+      <div class="rowContainer">
+        <div>
+          <input type="radio" name="gender" id="male" />
+          <label for="male">Male</label><br />
+        </div>
+
+        <div>
+          <input type="radio" name="gender" id="female" />
+          <label for="female">Female</label><br />
+        </div>
+      </div>
+
+      <hr />
+
+      <div>
+        <p>Choose hobbies</p>
+        <div>
+          <input type="checkbox" name="hobby" id="movie" />
+          <label for="movie">Movies</label>
+        </div>
+
+        <div>
+          <input type="checkbox" name="hobby" id="book" />
+          <label for="book">Books</label>
+        </div>
+
+        <div>
+          <input type="checkbox" name="hobby" id="sport" />
+          <label for="sport">Sports</label>
+        </div>
+      </div>
+
+      <a target="_blank" href="./forgotpassword.html">Forgot password</a>
+
+      <button class="submitBtn" type="submit">Send</button>
+    </form>
+  </body>
+</html>
